@@ -1,11 +1,11 @@
 import React from 'react'
+import ReactDOM from 'react-dom'
+import { BrowserRouter } from 'react-router-dom'
+import App from './App'
 
-function App() {
-  return (
-    <div>
-      <h1>Welcome to Professional Photography</h1>
-    </div>
-  )
-}
-
-export default App
+ReactDOM.render(
+  <BrowserRouter basename="/Professional_photography">
+    <App />
+  </BrowserRouter>,
+  document.getElementById('root')
+)

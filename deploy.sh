@@ -15,3 +15,6 @@ cp -r build/* static/
 
 # Выполнение миграций и сборка статических файлов Django
 python3 manage.py collectstatic --noinput
+
+# Деплой на GitHub Pages
+npm run deploy
