@@ -4,7 +4,7 @@
 cd /path/to/your/project
 
 # Обновить код из репозитория
-git pull origin master
+git pull origin main
 
 # Активировать виртуальное окружение
 source venv/bin/activate
