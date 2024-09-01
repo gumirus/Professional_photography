@@ -7,4 +7,4 @@ npm run build
 cp -r build/* path/to/your/django/static/
 
 # Выполнение миграций и сборка статических файлов Django
-python manage.py collectstatic --noinput
+python3 manage.py collectstatic --noinput
