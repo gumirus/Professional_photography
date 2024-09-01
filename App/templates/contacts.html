@@ -1,0 +1,63 @@
+{% extends 'base.html' %} 
+{% load static %} 
+{% block title %}Контакты{%endblock%} 
+{% block content %}
+<h2>Обратная связь</h2>
+<form method="post">
+  <label for="name">Имя:</label>
+  <input
+    type="text"
+    id="name"
+    name="name"
+    placeholder="Введите ваше имя"
+    required
+  />
+  <label for="email">Email:</label>
+  <input
+    type="email"
+    id="email"
+    name="email"
+    placeholder="Введите ваш email"
+    required
+  />
+  <label for="message">Сообщение:</label>
+  <textarea
+    id="message"
+    name="message"
+    placeholder="Введите ваше сообщение"
+    required
+  ></textarea>
+  <button type="submit">Отправить</button>
+</form>
+<h2>Контакты</h2>
+<table class="table">
+  <tr>
+    <th>Отдел</th>
+    <th>Контактное лицо</th>
+    <th>Телефон</th>
+    <th>Email</th>
+    <th>Адрес</th>
+  </tr>
+  <tr>
+    <td>Общий офис</td>
+    <td>Иван Иванов</td>
+    <td>+62 123 456 789</td>
+    <td>info@photographer.com</td>
+    <td>Jl. Sunset Road No.123, Bali, Indonesia</td>
+  </tr>
+  <tr>
+    <td>Студио</td>
+    <td>Мария Петрова</td>
+    <td>+62 987 654 321</td>
+    <td>studio@photographer.com</td>
+    <td>Jl. Sunset Road No.123, Bali, Indonesia</td>
+  </tr>
+  <tr>
+    <td>Фотограф</td>
+    <td>Алексей Смирнов</td>
+    <td>+62 456 789 012</td>
+    <td>photographer@photographer.com</td>
+    <td>Jl. Sunset Road No.123, Bali, Indonesia</td>
+  </tr>
+</table>
+{% endblock %}

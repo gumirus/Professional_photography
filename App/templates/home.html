@@ -1,0 +1,20 @@
+{% extends 'base.html' %} {% load static %} {% block title %}Главная{%endblock%}
+{% block content %}
+<div class="cards">
+  <div>
+    <img src="{% static 'img/main.jpg' %}" alt="Фотосъемка" width="400px" />
+  </div>
+  <div>
+    <img src="{% static 'img/foto.png' %}" alt="Фотосъемка" width="400px" />
+  </div>
+  <div>
+    <img src="{% static 'img/foto2.jpg' %}" alt="Фотосъемка" width="400px" />
+  </div>
+  <div>
+    <img src="{% static 'img/foto3.jpg' %}" alt="Фотосъемка" width="400px" />
+  </div>
+</div>
+<section>
+  <h2>Добро пожаловать на сайт профессиональной фотосъемки</h2>
+</section>
+{% endblock %}
