@@ -1,14 +1,17 @@
 {
   "files": {
-    "main.js": "/Professional_photography/static/js/main.8e44b4d6.chunk.js",
-    "main.js.map": "/Professional_photography/static/js/main.8e44b4d6.chunk.js.map",
+    "main.js": "/Professional_photography/static/js/main.a55b4784.chunk.js",
+    "main.js.map": "/Professional_photography/static/js/main.a55b4784.chunk.js.map",
     "runtime-main.js": "/Professional_photography/static/js/runtime-main.046f7832.js",
     "runtime-main.js.map": "/Professional_photography/static/js/runtime-main.046f7832.js.map",
+    "static/js/2.aeaa8554.chunk.js": "/Professional_photography/static/js/2.aeaa8554.chunk.js",
+    "static/js/2.aeaa8554.chunk.js.map": "/Professional_photography/static/js/2.aeaa8554.chunk.js.map",
     "index.html": "/Professional_photography/index.html",
-    "static/js/main.8e44b4d6.chunk.js.LICENSE.txt": "/Professional_photography/static/js/main.8e44b4d6.chunk.js.LICENSE.txt"
+    "static/js/2.aeaa8554.chunk.js.LICENSE.txt": "/Professional_photography/static/js/2.aeaa8554.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.046f7832.js",
-    "static/js/main.8e44b4d6.chunk.js"
+    "static/js/2.aeaa8554.chunk.js",
+    "static/js/main.a55b4784.chunk.js"
   ]
 }
