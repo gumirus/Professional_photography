@@ -19,11 +19,17 @@
       </nav>
       <p>Запечатлейте лучшие моменты вашей жизни</p>
     </header>
-    <main class="container">{% block content %}{% endblock %}</main>
+    <main class="container">
+      {% block content %}
+      <div id="root"></div>
+      {% endblock %}
+    </main>
     <footer>
       <p>Свяжитесь с нами: info@photographer.com</p>
       <p>Адрес: Jl. Sunset Road No.123, Bali, Indonesia</p>
       <p>Телефон: +62 123 456 789</p>
     </footer>
+    <script src="{% static 'static/js/main.8e44b4d6.chunk.js' %}"></script>
+    <script src="{% static 'static/js/runtime-main.046f7832.js' %}"></script>
   </body>
 </html>
