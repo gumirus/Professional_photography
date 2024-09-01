@@ -1,22 +1,10 @@
 #!/bin/bash
 
-# Перейти в директорию проекта
-cd /path/to/your/project
+# Сборка React-приложения
+npm run build
 
-# Обновить код из репозитория
-git pull origin main
+# Копирование собранных файлов в директорию static Django
+cp -r build/* path/to/your/django/static/
 
-# Активировать виртуальное окружение
-source venv/bin/activate
-
-# Установить зависимости
-pip install -r requirements.txt
-
-# Выполнить миграции базы данных (для Django)
-python manage.py migrate
-
-# Собрать статические файлы (для Django)
+# Выполнение миграций и сборка статических файлов Django
 python manage.py collectstatic --noinput
-
-# Перезапустить сервис (например, через systemd)
-sudo systemctl restart your-app.service
